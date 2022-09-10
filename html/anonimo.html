@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <title>Pizzaria</title>
+    <link rel="stylesheet" href="../CSS/anonimo.css" />
+</head>
+<body>
+    <a class="anonimo" href="../index.html">Back to Menu</a>
+    <div class="formulário" id="denuncia">
+        <h2>Pizzaria do Wily</h2>
+        <p>Realize seu pedido</p>
+        <form action="" >
+            <fieldset>
+                <div>
+                    <label for="">Nome: </label>
+                    <input type="text" />
+                    <label for="">Sobrenome: </label>
+                    <input type="text" />
+                </div>
+
+                <div>
+                    <label for="">Endereço: </label>
+                    <input type="text" /><br>
+                    <label for="">Telefone: </label>
+                    <input type="text" /><br>
+                    <label for="">Email: </label>
+                    <input type="email" name="" id="" />
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div id="mudar" onmouseover="aparecerTexto();" onmouseout="reset();" >
+                    <label for="">Favor selecione o tipo de Pizza</label><br>
+                    <input type="checkbox" name="" id="" />
+                    <label id="calabresa"  for="">Sabor Calabresa</label><br>
+                    <input type="checkbox"  name="" id="" />
+                    <label id="portuguesa" onmouseover="aparecerTexto1();" onmouseout="reset1();" for="">Sabor Portuguesa</label><br>
+                    <input type="checkbox" name="" id="" />
+                    <label id="queijos" onmouseover="aparecerTexto2();" onmouseout="reset2();" for="">Sabor 4 Queijos</label><br>
+                </div>
+
+                <div>
+                    <label for="">É menor de Idade?</label><br>
+                    <label for=""> <input type="radio" />Sim </label><br>
+                    <label for=""> <input type="radio" />Não </label>
+                </div>
+            </fieldset>
+            <button class="btn" type="submit">Realizar pedido</button>
+        </form>
+        
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../img/pizza.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f7f7f7;
+    font-family: sans-serif;
+
+
+}
+h1,h2, label, p{
+    color: white;
+}
+h2, h1{
+    font-family: 'IBM Plex Mono', monospace;
+}
+h2{
+    text-transform: uppercase;
+}
+.anonimo{
+    color: white;
+    background-color: black;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: fixed;
+    top: 4px;
+    left: 4px;
+    
+
+}
+
+
+.formulário{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 1rem;
+
+}
+.formulário h2{
+    padding: 50px;
+}
+.formulário h2, .formulário p{
+    margin: auto;
+}
+.formulário form{
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+}
+fieldset{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    grid: 20px;
+
+}
+
+fieldset div{
+    margin: 30px;
+}
+
+
+input{
+    outline: unset;
+    max-width: 300px;
+    border: 1px solid gray;
+    height: 1.5rem;
+    border-radius: 4px;
+}
+
+.btn{
+    max-width: 200px;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: rgb(202, 201, 201);
+    border: 0;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    
+}
+
+.btn:hover{
+    background-color: rgb(170, 169, 169);
+}

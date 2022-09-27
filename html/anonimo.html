@@ -12,27 +12,50 @@
     <link rel="stylesheet" href="../CSS/anonimo.css" />
 </head>
 <body>
-    <a class="anonimo" href="../index.html">Back to Menu</a>
+    <a class="anonimo" href="../index.html">←</a>
     <div class="formulário" id="denuncia">
-        <h2>Pizzaria do Wily</h2>
+        <h2>Pizzaria Fiorina</h2>
         <p>Realize seu pedido</p>
         <form action="" >
             <fieldset>
-                <div>
-                    <label for="">Nome: </label>
-                    <input type="text" />
-                    <label for="">Sobrenome: </label>
-                    <input type="text" />
+                <legend>Complete Suas Informações!</legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Email</label>
+                </div>
+                <br><br>                  
+
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
                 </div>
 
-                <div>
-                    <label for="">Endereço: </label>
-                    <input type="text" /><br>
-                    <label for="">Telefone: </label>
-                    <input type="text" /><br>
-                    <label for="">Email: </label>
-                    <input type="email" name="" id="" />
-                </div>
+            <br><br>
+            <div>
+            <label for="data_nascimento">Data de Nascimento: </label><br><br>
+            <input type="date" name="data_nascimento" id="data_nascimento" required>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                <label for="endereco" class="labelInput">Endereço de entrega</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                <label for="cidade" class="labelInput">Cidade</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" name="estado" id="estado" class="inputUser" required>
+                <label for="estado" class="labelInput">Estado</label>
+            </div>
             </fieldset>
 
             <fieldset>
@@ -41,9 +64,9 @@
                     <input type="checkbox" name="" id="" />
                     <label id="calabresa"  for="">Sabor Calabresa</label><br>
                     <input type="checkbox"  name="" id="" />
-                    <label id="portuguesa" onmouseover="aparecerTexto1();" onmouseout="reset1();" for="">Sabor Portuguesa</label><br>
+                    <label id="portuguesa"  for="">Sabor Portuguesa</label><br>
                     <input type="checkbox" name="" id="" />
-                    <label id="queijos" onmouseover="aparecerTexto2();" onmouseout="reset2();" for="">Sabor 4 Queijos</label><br>
+                    <label id="queijos" for="">Sabor 4 Queijos</label><br>
                 </div>
 
                 <div>
@@ -52,7 +75,7 @@
                     <label for=""> <input type="radio" />Não </label>
                 </div>
             </fieldset>
-            <button class="btn" type="submit">Realizar pedido</button>
+            <input type="submit" name="submit" id="submit">
         </form>
         
     </div>

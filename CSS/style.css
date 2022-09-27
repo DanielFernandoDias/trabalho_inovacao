@@ -52,7 +52,7 @@ h2{
 }
 
 .navegacao a:hover{
-    outline: 2px solid red;
+    outline: 2px solid black;
 }
 
 .anonimo{
@@ -89,10 +89,14 @@ h2{
     align-items: center;
 }
 
-.principal-quem div{
+.principal-quem .principal1{
     grid-column: 2;
     display: grid;
     gap: 20px;
+}
+.fonte{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
 }
 
 /* OBJETIVO */
@@ -131,10 +135,82 @@ h2{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 /* Formulário */
 
 .formulário{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+fieldset{
+    border: 3px solid black;
+    margin-top: 10px;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+legend{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #111;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput, .inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: #ccc;
+    background: black;
+}
+
+#data_nascimento{
+    border: none;
+    padding: 6px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 15px;
+    background-color: #111;
+    color: white;
+}
+
+#submit{
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+#submit:hover{
+    font-size: 1.5rem;
+    background: rgb(68, 68, 68);
+
+}
+
+/* .formulário{
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -161,9 +237,9 @@ fieldset{
     flex-direction: column;
     grid: 20px;
 
-}
+} */
 
-fieldset div{
+/* fieldset div{
     margin: 30px;
 }
 
@@ -184,11 +260,11 @@ input{
     border: 0;
     border-radius: 4px;
     
-}
+} */
 
-.btn:hover{
+/* .btn:hover{
     background-color: rgb(170, 169, 169);
-}
+} */
 
 
 .rodape{
@@ -213,7 +289,7 @@ input{
         grid-template-columns: 1fr;
     }
 
-    .principal-quem div{
+    .principal-quem .principal1{
         grid-column: 1;
     }
     .objetivos{
@@ -227,8 +303,15 @@ input{
         padding: 1rem;
     }
 
-    .principal-quem, .objetivos, .dados img{
+    .principal-quem, .objetivos, .dados-imagem{
         padding: 1rem;
     }
     
+}
+
+/* */
+
+.whats{
+    width: 64px;
+    background-color: #f7f7f7;
 }

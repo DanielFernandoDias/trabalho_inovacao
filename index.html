@@ -26,74 +26,96 @@
             <div class="principal1">
             <h2>Quem <br> Somos</h2>
 
-            <p >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
-                ex! Qui accusamus aliquam harum sunt corporis in praesentium fugiat
-                dolores velit earum neque magnam nemo, quia saepe dolore perspiciatis?
-                Minima magnam dolor accusamus ut, tempora harum assumenda fugiat totam
-                quidem temporibus itaque eveniet, repellendus dicta. Doloremque ea
-                deserunt beatae voluptas?
+            <p>
+                O Portal Maryfree surgiu em Agosto de 2022 e está atrelado ao nosso desejo por conseguir ajudar um maior número de mulheres a se defenderem da violência doméstica através da denúncia de seus agressores. A partir disso, decidimos criar uma plataforma que torne mais simples e rápido o processo de denúncia, para que se torne mais efetiva, visto que as vítimas precisam de respostas urgentes.
             </p>
             </div>
 
-            <img src="img/luta.jpg" alt="" />
+            <div><abbr title="Fonte: https://unsplash.com/; 09/2022"><img src="img/luta.jpg" alt="" /></abbr>
+                <p class="fonte">Fonte: https://unsplash.com/ - Setembro de 2022</p>
+            </div>
+            
         </div>
 
         <div class="objetivos" id="objetivos">
             <h2>Objetivo</h2>
-
-            <img src="img/agressao.jpg" alt="" />
+            <div>
+                <abbr title="Fonte: https://unsplash.com/; 09/2022"><img src="img/agressao.jpg" alt="" /></abbr>
+                <p class="fonte">Fonte: https://unsplash.com/ - Setembro de 2022</p>
+            </div>
+            
 
             
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-                aspernatur quas, consequuntur sed quam natus veritatis at non quis
-                commodi, error exercitationem. Illum quo eum sed nostrum, aut
-                aspernatur veniam commodi illo molestias vero voluptatibus, dolores
-                sit omnis nam, nesciunt unde reiciendis labore ipsum consequatur error
-                porro harum autem odit.
+                O objetivo é contribuir na luta contra a violência doméstica, criando meio que facilite o processo de denúncia, tornando-o mais rápido, visto que a vítima não demanda de tanto tempo. Essa proposta chega em momento oportuno, facilitando no primeiro acesso das vítimas com a denúncia pela internet.
             </p>
         </div>
         <div class="dados">
             <h2>Dados e Denúncias</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-                vel nam corporis magni fugit ullam earum magnam sed, laboriosam eius
-                aperiam iure sapiente quo ipsum. Consectetur labore quibusdam
-                asperiores repellendus nisi reprehenderit voluptas, accusamus possimus
-                dicta laborum. Tenetur atque, laudantium eius, totam labore recusandae
-                quis perferendis animi dicta illum sed?
+                A violência contra a mulher é um fenômeno global. Uma a cada três mulheres em idade reprodutiva sofreu violência física ou violência sexual de um parceiro íntimo durante toda a vida, e mais de um terço dos homicídios de mulheres são feitos por um parceiro íntimo (STOCKL apud VIEIRA, GARCIA E MACIEL 2020);
+            </p>
+            <p>
+                Dos 3.739 homicídios de mulheres em 2019 no Brasil, 1.314 (35%) foram categorizados como feminicídios. Isso equivale a dizer que, a cada sete horas, uma mulher é morta pelo fato de ser mulher. Ao analisar o aspecto vínculo com o autor, revela-se que 88,8% dos feminicídios foram praticados por companheiros ou ex-companheiros (REUTERS apud VIEIRA, GARCIA E MACIEL 2020).
             </p>
             <div class="imagens">
-                <img src="img/dados.jpg" alt="" />
-                <img src="img/dados3.jpg" alt="" />
+                <div>
+                    <abbr title="Fonte: https://www.naosecale.ms.gov.br/violencia-contra-a-mulher/; 09/2022"><img class="dados-imagem" src="img/dados.jpg" alt="" /></abbr>
+                </div>
+                <div>
+                   <abbr title="Fonte: http://fecosul.com.br/noticias/2019_ja_registra_ao_menos_12_casos_de_feminicidio; 09/2022"><img class="dados-imagem" src="img/dados3.jpg" alt="" /></abbr> 
+                </div>
+                
             </div>
         </div>
         <div class="formulário" id="denuncia">
-            <h2>Vamos Denunciar!</h2>
-            <p>Complete suas informações!</p>
+            <h2>Denuncie!</h2>
             <form action="" >
                 <fieldset>
-                    <div>
-                        <label for="">Nome: </label>
-                        <input type="text" />
-                        <label for="">Sobrenome: </label>
-                        <input type="text" />
+                    <legend>Complete Suas Informações!</legend>
+                    <br>
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome" class="labelInput">Nome completo</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" name="email" id="email" class="inputUser" required>
+                        <label for="email" class="labelInput">Email</label>
+                    </div>
+                    <br><br>                  
+
+                    <div class="inputBox">
+                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                        <label for="telefone" class="labelInput">Telefone</label>
                     </div>
 
-                    <div>
-                        <label for="">Endereço: </label>
-                        <input type="text" /><br>
-                        <label for="">Telefone: </label>
-                        <input type="text" /><br>
-                        <label for="">Email: </label>
-                        <input type="email" name="" id="" />
-                    </div>
+                <br><br>
+                
+                <label for="data_nascimento">Data de Nascimento:</label>
+                <input type="date" name="data_nascimento" id="data_nascimento" required>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereco" class="labelInput">Endereço</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade" class="labelInput">Cidade</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">Estado</label>
+                </div>
+                
                 </fieldset>
 
                 <fieldset>
+                    <br>
                     <div>
-                        <label for="">Favor selecione o tipo de agressão</label><br>
+                        <label for="">Favor selecione o tipo de agressão</label><br><br>
                         <input type="checkbox" name="" id="" />
                         <label for="">violência física</label><br>
                         <input type="checkbox" name="" id="" />
@@ -101,19 +123,25 @@
                         <input type="checkbox" name="" id="" />
                         <label for="">violência Psicologica</label><br>
                     </div>
-
+                    <br><br>
                     <div>
-                        <label for="">É menor de Idade?</label><br>
-                        <label for=""> <input type="radio" />Sim </label><br>
-                        <label for=""> <input type="radio" />Não </label>
+                        <label for="">É menor de Idade?</label><br><br>
+                        <input type="radio" id="menor" name="idade" value="sim" required>
+                        <label for="masculino">Sim</label>
+                        
+                        <input type="radio" id="menor" name="idade" value="não" required>
+                        <label for="outro">Não</label>                     
                     </div>
                 </fieldset>
-                <button class="btn" type="submit">Enviar e denunciar</button>
+
+                <input type="submit" name="submit" id="submit">
             </form>
             
         </div>
-    </header>
+        <a href="https://api.whatsapp.com/send?phone=5561986261197&text=" target="_blank"><img src="img/WhatsApp.svg.webp" class="whats" alt=""></a><p>Denuncie, Diretamente ao PCDF</p>
 
+    </header>
+    
     <footer class="rodape">Todos os direitos Reservados</footer>
 </body>
 

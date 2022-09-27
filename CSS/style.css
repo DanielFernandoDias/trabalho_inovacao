@@ -210,61 +210,6 @@ legend{
 
 }
 
-/* .formulário{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    gap: 20px;
-    font-size: 1.5rem;
-    text-transform: capitalize;
-    width: 100%;
-
-}
-.formulário h2{
-    padding: 50px;
-}
-.formulário h2, .formulário p{
-    margin: auto;
-}
-.formulário form{
-    display: grid;
-    gap: 20px;
-    justify-content: center;
-}
-fieldset{
-    max-width: 800px;
-    display: flex;
-    flex-direction: column;
-    grid: 20px;
-
-} */
-
-/* fieldset div{
-    margin: 30px;
-}
-
-
-input{
-    outline: unset;
-    max-width: 300px;
-    border: 1px solid gray;
-    border-radius: 20px;
-}
-
-.btn{
-    max-width: 200px;
-    padding: 20px;
-    text-transform: uppercase;
-    font-weight: 700;
-    background-color: rgb(202, 201, 201);
-    border: 0;
-    border-radius: 4px;
-    
-} */
-
-/* .btn:hover{
-    background-color: rgb(170, 169, 169);
-} */
 
 
 .rodape{

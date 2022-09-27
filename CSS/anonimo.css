@@ -63,42 +63,10 @@ h2{
 }
 
 
-/* fieldset{
-    max-width: 800px;
-    display: flex;
-    flex-direction: column;
-    grid: 20px;
-
-} */
-
 fieldset div{
     margin: 30px;
 }
 
-
-/* input{
-    outline: unset;
-    max-width: 300px;
-    border: 1px solid gray;
-    height: 1.5rem;
-    border-radius: 4px;
-} */
-
-/* .btn{
-    max-width: 200px;
-    padding: 20px;
-    text-transform: uppercase;
-    font-weight: 700;
-    background-color: rgb(202, 201, 201);
-    border: 0;
-    border-radius: 4px;
-    margin-bottom: 1rem;
-    
-}
-
-.btn:hover{
-    background-color: rgb(170, 169, 169);
-} */
 
 
 
